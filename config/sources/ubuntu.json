@@ -1,0 +1,101 @@
+[
+    {
+        "Source": {
+            "AmiId": "ami-88686be6",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "ap-northeast-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-f500c996",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "ap-southeast-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-9b9c86f7",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "eu-central-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-abc579d8",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "eu-west-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-f3e4669f",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "sa-east-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-415f6d2b",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "us-east-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-1d25557d",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "us-west-1",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-1f30167c",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "ap-southeast-2",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    },
+    {
+        "Source": {
+            "AmiId": "ami-3d2cce5d",
+            "Architecture": "amd64",
+            "Name": "trusty",
+            "OS": "ubuntu",
+            "Region": "us-west-2",
+            "Type": "hvm:ebs-ssd",
+            "Version": "14.04"
+        }
+    }
+]

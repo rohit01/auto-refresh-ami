@@ -1,0 +1,25 @@
+{
+    "Project": {
+        "Name": "Example 1 25G",
+        "InstanceType": "t2.nano",
+        "RetentionCount": 3,
+        "SourceFilter": {
+            "OS": "ubuntu",
+            "Name": "trusty"
+        },
+        "UserData": "ubuntu-basic",
+        "Account": "example-1",
+        "EbsVolumes": [
+            {
+                "DeviceName": "/dev/sda1",
+                "DeleteOnTermination": true,
+                "VolumeSize": 25,
+                "VolumeType": "gp2"
+            }
+        ],
+        "Tags": {
+            "role": "ubuntu",
+            "env": "example-1"
+        }
+    }
+}

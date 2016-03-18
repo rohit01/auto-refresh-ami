@@ -1,0 +1,8 @@
+{
+    "account": {
+        "Name": "example-1",
+        "OwnerId": "123456789012",
+        "AccessKeyId": "<My-Key>",
+        "SecretAccessKey": "<My-Secret>"
+    }
+}

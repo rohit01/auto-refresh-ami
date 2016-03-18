@@ -1,0 +1,140 @@
+{
+	"ImportPath": "autorefresh-ami",
+	"GoVersion": "go1.6",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.9.0-15-g219c8cb",
+			"Rev": "219c8cb75c258c552e999735be6df753ffc7afdc"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awserr",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awsutil",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client/metadata",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/corehandlers",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/defaults",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/ec2metadata",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/request",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/session",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/endpoints",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/ec2query",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/query/queryutil",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/rest",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/signer/v4",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/waiter",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/ec2",
+			"Comment": "v1.1.8-3-g84dd236",
+			"Rev": "84dd2369d1041b2c79c67bc81bba00636711d01b"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-224-gaca5b04",
+			"Rev": "aca5b047ed14d17224157c3434ea93bf6cdaadee"
+		},
+		{
+			"ImportPath": "github.com/go-ini/ini",
+			"Comment": "v1.10.1",
+			"Rev": "776aa739ce9373377cd16f526cdf06cb4c89b40f"
+		},
+		{
+			"ImportPath": "github.com/jmespath/go-jmespath",
+			"Comment": "0.2.2-12-g0b12d6b",
+			"Rev": "0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74"
+		},
+		{
+			"ImportPath": "github.com/robfig/cron",
+			"Comment": "v1-7-g32d9c27",
+			"Rev": "32d9c273155a0506d27cf73dd1246e86a470997e"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "7a56174f0086b32866ebd746a794417edbc678a1"
+		}
+	]
+}

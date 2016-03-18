@@ -1,0 +1,26 @@
+{
+    "Project": {
+        "Name": "Production Ubuntu 250G",
+        "InstanceType": "t2.nano",
+        "RetentionCount": 3,
+        "Cron": "@daily",
+        "SourceFilter": {
+            "OS": "ubuntu",
+            "Name": "trusty"
+        },
+        "UserData": "ubuntu-basic",
+        "Account": "production",
+        "EbsVolumes": [
+            {
+                "DeviceName": "/dev/sda1",
+                "DeleteOnTermination": true,
+                "VolumeSize": 250,
+                "VolumeType": "gp2"
+            }
+        ],
+        "Tags": {
+            "role": "ubuntu",
+            "env": "production"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "UserData": {
+        "Name": "ubuntu-basic",
+        "Bash": "sudo apt-get update\nsudo apt-get -y upgrade\necho \"Source AMI creation time: $(date)\" \u003e /.auto_ami_creation_time\n"
+    }
+}
